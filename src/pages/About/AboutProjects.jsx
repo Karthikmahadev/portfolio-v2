@@ -1,27 +1,40 @@
 import React from "react";
+import perspective from '../../assets/perspective.jpg';
+import travel from '../../assets/travel.jpg';
+import wealthwise from '../../assets/wealthwise.jpg';
+import job from '../../assets/job.jpg';
 
 const PROJECTS = [
   {
     title: "Perspective",
-    description: "A platform for design inspirations and portfolios.",
-    image: `${import.meta.env.BASE_URL}perspective.jpg`,
+    category: "Frontend Web App",
+    date: "15/02/24",
+    image: perspective,
+    link: "https://perspectivesoul.netlify.app/",
   },
   {
     title: "The Wanderer's Palette",
-    description: "Travel blog with curated experiences.",
-    image: `${import.meta.env.BASE_URL}travel.jpg`,
+    category: "Full-Stack Project (React + Java)",
+    date: "20/09/25",
+    image: travel,
+    link: null,
   },
   {
     title: "WealthWise",
-    description: "Finance tracker and wealth management app.",
-    image: `${import.meta.env.BASE_URL}wealthwise.jpg`,
+    category: "Full-Stack Project (Next.js + Node.js)",
+    date: "07/10/25",
+    image: wealthwise,
+    link: null,
   },
   {
     title: "Career Compass",
-    description: "Job search and career growth assistant.",
-    image: `${import.meta.env.BASE_URL}job.jpg`,
+    category: "Web App (Job Matching Platform)",
+    date: "01/11/25",
+    image: job,
+    link: null,
   },
 ];
+
 
 
 

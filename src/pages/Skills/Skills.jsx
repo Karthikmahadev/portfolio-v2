@@ -1,18 +1,33 @@
 import React from "react";
+import htmlLogo from '../../assets/html.png';
+import cssLogo from '../../assets/css.png';
+import jsLogo from '../../assets/js.png';
+import reactLogo from '../../assets/react.png';
+import nextLogo from '../../assets/next.png';
+import bootstrapLogo from '../../assets/bootstrap.webp';
+import tailwindLogo from '../../assets/tailwind.png';
+import mysqlLogo from '../../assets/mysql.png';
+import algoliaLogo from '../../assets/algolio.png';
+import nodejsLogo from '../../assets/nodejs.png';
+import javaLogo from '../../assets/java.png';
+import springBootLogo from '../../assets/springboot.png';
+
+
 const skills = [
-  { name: "HTML", logo: `${import.meta.env.BASE_URL}html.png` },
-  { name: "CSS", logo: `${import.meta.env.BASE_URL}css.png` },
-  { name: "JavaScript", logo: `${import.meta.env.BASE_URL}js.png` },
-  { name: "React", logo: `${import.meta.env.BASE_URL}react.png` },
-  { name: "Next.js", logo: `${import.meta.env.BASE_URL}next.png` },
-  { name: "Bootstrap", logo: `${import.meta.env.BASE_URL}bootstrap.webp` },
-  { name: "Tailwind", logo: `${import.meta.env.BASE_URL}tailwind.png` },
-  { name: "MySQL", logo: `${import.meta.env.BASE_URL}mysql.png` },
-  { name: "Algolia", logo: `${import.meta.env.BASE_URL}algolio.png` },
-  { name: "Node.js", logo: `${import.meta.env.BASE_URL}nodejs.png` },
-  { name: "Java", logo: `${import.meta.env.BASE_URL}java.png` },
-  { name: "Spring Boot", logo: `${import.meta.env.BASE_URL}springboot.png` },
+  { name: "HTML", logo: htmlLogo },
+  { name: "CSS", logo: cssLogo },
+  { name: "JavaScript", logo: jsLogo },
+  { name: "React", logo: reactLogo },
+  { name: "Next.js", logo: nextLogo },
+  { name: "Bootstrap", logo: bootstrapLogo },
+  { name: "Tailwind", logo: tailwindLogo },
+  { name: "MySQL", logo: mysqlLogo },
+  { name: "Algolia", logo: algoliaLogo },
+  { name: "Node.js", logo: nodejsLogo },
+  { name: "Java", logo: javaLogo },
+  { name: "Spring Boot", logo: springBootLogo },
 ];
+
 const Skills = () => {
   return (
     <div className="bg-gray-100 px-4 sm:px-8 py-10 font-sans">
