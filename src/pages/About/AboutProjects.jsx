@@ -24,6 +24,7 @@ const PROJECTS = [
 ];
 
 
+
 const ProjectCard = ({ title, category, date, image, link }) => {
   const isComingSoon = !link;
 

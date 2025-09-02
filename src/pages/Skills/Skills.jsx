@@ -13,7 +13,6 @@ const skills = [
   { name: "Java", logo: `${import.meta.env.BASE_URL}java.png` },
   { name: "Spring Boot", logo: `${import.meta.env.BASE_URL}springboot.png` },
 ];
-
 const Skills = () => {
   return (
     <div className="bg-gray-100 px-4 sm:px-8 py-10 font-sans">

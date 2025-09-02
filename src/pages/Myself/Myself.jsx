@@ -28,7 +28,7 @@ const Myself = () => {
         <div className="rounded-full h-32 w-32 sm:h-40 sm:w-40 md:h-[168px] md:w-[168px] overflow-hidden">
           <img
             className="w-full h-full object-cover"
- src={`${import.meta.env.BASE_URL}profile-img.jpg`}
+            src={`${import.meta.env.BASE_URL}profile-img.jpg`}
             alt="Profile"
           />
         </div>
