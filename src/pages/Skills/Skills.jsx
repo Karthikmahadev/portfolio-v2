@@ -1,32 +1,17 @@
 import React from "react";
-
-// ✅ Import images directly so they work in React
-import htmlLogo from "/public/html.png";
-import cssLogo from "/public/css.png";
-import jsLogo from "/public/js.png";
-import reactLogo from "/public/react.png";
-import nextLogo from "/public/next.png";
-import bootstrapLogo from "/public/bootstrap.webp";
-import tailwindLogo from "/public/tailwind.png";
-import mysqlLogo from "/public/mysql.png";
-import algoliaLogo from "/public/algolio.png";
-import nodejsLogo from "/public/nodejs.png";
-import javaLogo from "/public/java.png";
-import springbootLogo from "/public/springboot.png";
-
 const skills = [
-  { name: "HTML", logo: htmlLogo },
-  { name: "CSS", logo: cssLogo },
-  { name: "JavaScript", logo: jsLogo },
-  { name: "React", logo: reactLogo },
-  { name: "Next.js", logo: nextLogo },
-  { name: "Bootstrap", logo: bootstrapLogo },
-  { name: "Tailwind", logo: tailwindLogo },
-  { name: "MySQL", logo: mysqlLogo },
-  { name: "Algolia", logo: algoliaLogo },
-  { name: "Node.js", logo: nodejsLogo },
-  { name: "Java", logo: javaLogo },
-  { name: "Spring Boot", logo: springbootLogo },
+  { name: "HTML", logo: `${import.meta.env.BASE_URL}html.png` },
+  { name: "CSS", logo: `${import.meta.env.BASE_URL}css.png` },
+  { name: "JavaScript", logo: `${import.meta.env.BASE_URL}js.png` },
+  { name: "React", logo: `${import.meta.env.BASE_URL}react.png` },
+  { name: "Next.js", logo: `${import.meta.env.BASE_URL}next.png` },
+  { name: "Bootstrap", logo: `${import.meta.env.BASE_URL}bootstrap.webp` },
+  { name: "Tailwind", logo: `${import.meta.env.BASE_URL}tailwind.png` },
+  { name: "MySQL", logo: `${import.meta.env.BASE_URL}mysql.png` },
+  { name: "Algolia", logo: `${import.meta.env.BASE_URL}algolio.png` },
+  { name: "Node.js", logo: `${import.meta.env.BASE_URL}nodejs.png` },
+  { name: "Java", logo: `${import.meta.env.BASE_URL}java.png` },
+  { name: "Spring Boot", logo: `${import.meta.env.BASE_URL}springboot.png` },
 ];
 
 const Skills = () => {

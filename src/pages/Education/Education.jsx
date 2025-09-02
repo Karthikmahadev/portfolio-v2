@@ -1,29 +1,26 @@
 import React from "react";
 
-// ✅ Place these images inside the "public" folder (e.g., public/vikaasa.jpg)
 const EDUCATION_DATA = [
   {
     number: "01",
     title: "Vikaasa",
-    description:
-      "Laid the foundation of my academic journey, where I developed curiosity, discipline, and a drive to learn beyond the classroom.",
-    image: "/vikaasa.jpg", // public/vikaasa.jpg
+    description: "Laid the foundation of my learning journey.",
+    image: `${import.meta.env.BASE_URL}vikaasa.jpg`,
   },
   {
     number: "02",
     title: "Cambridge",
-    description:
-      "Enhanced critical thinking and problem-solving skills through a globally recognized curriculum, building strong fundamentals for higher studies.",
-    image: "/cambridge.webp", // public/cambridge.webp
+    description: "Enhanced critical thinking and communication skills.",
+    image: `${import.meta.env.BASE_URL}cambridge.webp`,
   },
   {
     number: "03",
     title: "Ramco Institute of Technology",
-    description:
-      "Pursued my undergraduate degree, gaining hands-on experience in technology, software development, and teamwork while preparing for real-world challenges.",
-    image: "/ramco.webp", // public/ramco.webp
+    description: "Pursued my undergraduate degree in engineering.",
+    image: `${import.meta.env.BASE_URL}ramco.webp`,
   },
 ];
+
 
 const Education = () => {
   return (

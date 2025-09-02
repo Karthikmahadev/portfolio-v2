@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { LuCopy } from "react-icons/lu";
-import profileImg from "../assets/profile-img.jpg"; // ✅ adjust path if needed
 
 const Myself = () => {
   const email = "karthikmahadev2001@gmail.com";
@@ -29,7 +28,7 @@ const Myself = () => {
         <div className="rounded-full h-32 w-32 sm:h-40 sm:w-40 md:h-[168px] md:w-[168px] overflow-hidden">
           <img
             className="w-full h-full object-cover"
-            src={profileImg}   // ✅ imported image
+ src={`${import.meta.env.BASE_URL}profile-img.jpg`}
             alt="Profile"
           />
         </div>
