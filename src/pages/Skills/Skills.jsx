@@ -1,33 +1,18 @@
 import React from "react";
-import htmlLogo from '../../assets/html.png';
-import cssLogo from '../../assets/css.png';
-import jsLogo from '../../assets/js.png';
-import reactLogo from '../../assets/react.png';
-import nextLogo from '../../assets/next.png';
-import bootstrapLogo from '../../assets/bootstrap.webp';
-import tailwindLogo from '../../assets/tailwind.png';
-import mysqlLogo from '../../assets/mysql.png';
-import algoliaLogo from '../../assets/algolio.png';
-import nodejsLogo from '../../assets/nodejs.png';
-import javaLogo from '../../assets/java.png';
-import springBootLogo from '../../assets/springboot.png';
-
-
 const skills = [
-  { name: "HTML", logo: htmlLogo },
-  { name: "CSS", logo: cssLogo },
-  { name: "JavaScript", logo: jsLogo },
-  { name: "React", logo: reactLogo },
-  { name: "Next.js", logo: nextLogo },
-  { name: "Bootstrap", logo: bootstrapLogo },
-  { name: "Tailwind", logo: tailwindLogo },
-  { name: "MySQL", logo: mysqlLogo },
-  { name: "Algolia", logo: algoliaLogo },
-  { name: "Node.js", logo: nodejsLogo },
-  { name: "Java", logo: javaLogo },
-  { name: "Spring Boot", logo: springBootLogo },
+  { name: "HTML", logo: "/portfolio-v2/html.png" },
+  { name: "CSS", logo: "/portfolio-v2/css.png" },
+  { name: "JavaScript", logo: "/portfolio-v2/js.png" },
+  { name: "React", logo: "/portfolio-v2/react.png" },
+  { name: "Next.js", logo: "/portfolio-v2/next.png" },
+  { name: "Bootstrap", logo: "/portfolio-v2/bootstrap.webp" },
+  { name: "Tailwind", logo: "/portfolio-v2/tailwind.png" },
+  { name: "MySQL", logo: "/portfolio-v2/mysql.png" },
+  { name: "Algolia", logo: "/portfolio-v2/algolio.png" },
+  { name: "Node.js", logo: "/portfolio-v2/nodejs.png" },
+  { name: "Java", logo: "/portfolio-v2/java.png" },
+  { name: "Spring Boot", logo: "/portfolio-v2/springboot.png" },
 ];
-
 const Skills = () => {
   return (
     <div className="bg-gray-100 px-4 sm:px-8 py-10 font-sans">

@@ -1,28 +1,25 @@
 import React from "react";
-import vikaasa from '../../assets/vikaasa.jpg';
-import cambridge from '../../assets/cambridge.webp';
-import ramco from '../../assets/ramco.webp';
 const EDUCATION_DATA = [
   {
     number: "01",
     title: "Vikaasa",
     description:
       "Laid the foundation of my academic journey, where I developed curiosity, discipline, and a drive to learn beyond the classroom.",
-    image: vikaasa,
+    image: "/portfolio-v2/vikaasa.jpg",
   },
   {
     number: "02",
     title: "Cambridge",
     description:
       "Enhanced critical thinking and problem-solving skills through a globally recognized curriculum, building strong fundamentals for higher studies.",
-    image: cambridge,
+    image: "/portfolio-v2/cambridge.webp",
   },
   {
     number: "03",
     title: "Ramco Institute of Technology",
     description:
       "Pursued my undergraduate degree, gaining hands-on experience in technology, software development, and teamwork while preparing for real-world challenges.",
-    image: ramco,
+    image: "/portfolio-v2/ramco.webp",
   },
 ];
 

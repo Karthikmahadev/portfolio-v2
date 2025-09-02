@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LuCopy } from "react-icons/lu";
-import profileImg from '../../assets/profile-img.jpg';
+
 const Myself = () => {
   const email = "karthikmahadev2001@gmail.com";
   const [copied, setCopied] = useState(false);
@@ -28,7 +28,7 @@ const Myself = () => {
         <div className="rounded-full h-32 w-32 sm:h-40 sm:w-40 md:h-[168px] md:w-[168px] overflow-hidden">
           <img
             className="w-full h-full object-cover"
-            src={profileImg}
+            src="/portfolio-v2/profile-img.jpg"
             alt="Profile"
           />
         </div>

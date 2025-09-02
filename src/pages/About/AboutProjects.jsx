@@ -1,39 +1,36 @@
 import React from "react";
-import perspective from '../../assets/perspective.jpg';
-import travel from '../../assets/travel.jpg';
-import wealthwise from '../../assets/wealthwise.jpg';
-import job from '../../assets/job.jpg';
 
 const PROJECTS = [
   {
     title: "Perspective",
     category: "Frontend Web App",
     date: "15/02/24",
-    image: perspective,
+    image: "/portfolio-v2/perspective.jpg",
     link: "https://perspectivesoul.netlify.app/",
   },
   {
     title: "The Wanderer's Palette",
     category: "Full-Stack Project (React + Java)",
     date: "20/09/25",
-    image: travel,
+    image: "/portfolio-v2/travel.jpg",
     link: null,
   },
   {
     title: "WealthWise",
     category: "Full-Stack Project (Next.js + Node.js)",
     date: "07/10/25",
-    image: wealthwise,
+    image: "/portfolio-v2/wealthwise.jpg",
     link: null,
   },
   {
     title: "Career Compass",
     category: "Web App (Job Matching Platform)",
     date: "01/11/25",
-    image: job,
+    image: "/portfolio-v2/job.jpg",
     link: null,
   },
 ];
+
 
 
 

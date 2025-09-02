@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Karthik-Mahadev-19.github.io/portfolio-v2",
+  "homepage": "https://KarthikMahadev.github.io/portfolio-v2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
