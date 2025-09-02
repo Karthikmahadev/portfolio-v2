@@ -1,40 +1,39 @@
 import React from "react";
+import perspective from "../assets/perspective.jpg";
+import travel from "../assets/travel.jpg";
+import wealthwise from "../assets/wealthwise.jpg";
+import job from "../assets/job.jpg";
 
 const PROJECTS = [
   {
     title: "Perspective",
     category: "Frontend Web App",
     date: "15/02/24",
-    image:
-      "/perspective.jpg",
-    link: "https://perspectivesoul.netlify.app/", 
+    image: perspective,
+    link: "https://perspectivesoul.netlify.app/",
   },
   {
     title: "The Wanderer's Palette",
     category: "Full-Stack Project (React + Java)",
     date: "20/09/25",
-    image:
-      "/travel.jpg",
-    link: null, 
+    image: travel,
+    link: null,
   },
   {
     title: "WealthWise",
     category: "Full-Stack Project (Next.js + Node.js)",
     date: "07/10/25",
-    image:
-      "/wealthwise.jpg",
-    link: null, 
+    image: wealthwise,
+    link: null,
   },
   {
     title: "Career Compass",
     category: "Web App (Job Matching Platform)",
     date: "01/11/25",
-    image:
-      "/job.jpg",
-    link: null, 
+    image: job,
+    link: null,
   },
 ];
-
 
 const ProjectCard = ({ title, category, date, image, link }) => {
   const isComingSoon = !link;
@@ -59,7 +58,9 @@ const ProjectCard = ({ title, category, date, image, link }) => {
         {/* Overlay if Coming Soon */}
         {isComingSoon && (
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <span className="text-white text-lg font-semibold">🚧 Coming Soon</span>
+            <span className="text-white text-lg font-semibold">
+              🚧 Coming Soon
+            </span>
           </div>
         )}
       </div>
@@ -85,8 +86,6 @@ const ProjectCard = ({ title, category, date, image, link }) => {
     CardContent
   );
 };
-
-
 
 const AboutProjects = () => {
   return (

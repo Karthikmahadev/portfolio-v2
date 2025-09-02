@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { LuCopy } from "react-icons/lu";
+import profileImg from "../assets/profile-img.jpg"; // ✅ adjust path if needed
 
 const Myself = () => {
   const email = "karthikmahadev2001@gmail.com";
@@ -9,7 +10,6 @@ const Myself = () => {
     navigator.clipboard.writeText(email);
     setCopied(true);
 
-    // reset after 2s
     setTimeout(() => {
       setCopied(false);
     }, 2000);
@@ -29,7 +29,7 @@ const Myself = () => {
         <div className="rounded-full h-32 w-32 sm:h-40 sm:w-40 md:h-[168px] md:w-[168px] overflow-hidden">
           <img
             className="w-full h-full object-cover"
-            src="/profile-img.jpg"
+            src={profileImg}   // ✅ imported image
             alt="Profile"
           />
         </div>
@@ -41,13 +41,13 @@ const Myself = () => {
             onClick={handleCopy}
             className="font-medium text-base sm:text-lg md:text-xl bg-white border-none flex items-center gap-2"
           >
-            {email} <LuCopy size={15} />{copied && (
-            <span className="ml-2 text-sm text-green-600 font-medium">
-              Copied!
-            </span>
-          )}
+            {email} <LuCopy size={15} />
+            {copied && (
+              <span className="ml-2 text-sm text-green-600 font-medium">
+                Copied!
+              </span>
+            )}
           </button>
-          
         </div>
 
         <div className="w-full md:w-[60%] lg:w-[43%]">
