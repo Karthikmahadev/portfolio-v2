@@ -1,17 +1,17 @@
 import React from "react";
 const skills = [
-  { name: "HTML", logo: "/portfolio-v2/html.png" },
-  { name: "CSS", logo: "/portfolio-v2/css.png" },
   { name: "JavaScript", logo: "/portfolio-v2/js.png" },
+  { name: "TypeScript", logo: "/portfolio-v2/typescript.webp" },
   { name: "React", logo: "/portfolio-v2/react.png" },
   { name: "Next.js", logo: "/portfolio-v2/next.png" },
-  { name: "Bootstrap", logo: "/portfolio-v2/bootstrap.webp" },
-  { name: "Tailwind", logo: "/portfolio-v2/tailwind.png" },
-  { name: "MySQL", logo: "/portfolio-v2/mysql.png" },
+  { name: "React Native", logo: "/portfolio-v2/react-native.webp" },
+  { name: "Grafana", logo: "/portfolio-v2/grafana.webp" },
+  { name: "Express", logo: "/portfolio-v2/express.png" },
+  { name: "PostgreSQL", logo: "/portfolio-v2/postgresql.png" },
   { name: "Algolia", logo: "/portfolio-v2/algolio.png" },
   { name: "Node.js", logo: "/portfolio-v2/nodejs.png" },
-  { name: "Java", logo: "/portfolio-v2/java.png" },
-  { name: "Spring Boot", logo: "/portfolio-v2/springboot.png" },
+  { name: "Supabase", logo: "/portfolio-v2/supabase.webp" },
+  { name: "Git", logo: "/portfolio-v2/git.webp" },
 ];
 const Skills = () => {
   return (
