@@ -3,43 +3,54 @@ import { FaArrowRight } from "react-icons/fa";
 
 const EXPERIENCE_STATS = [
   {
-    number: "1+",
+    number: "2+",
     label: (
       <>
         YEARS
         <br />
-        OF EXPERIENCE
+        EXPERIENCE
       </>
     ),
   },
   {
-    number: "5+",
+    number: "3",
     label: (
       <>
-        PROJECTS
+        PRODUCTION
         <br />
-        DELIVERED
+        PLATFORMS
       </>
     ),
   },
   {
-    number: "3+",
+    number: "40%",
     label: (
       <>
-        CLIENTS
+        PERFORMANCE
         <br />
-        COLLABORATED WITH
+        IMPROVEMENT
+      </>
+    ),
+  },
+  {
+    number: "E2E",
+    label: (
+      <>
+        END-TO-END
+        <br />
+        OWNERSHIP
       </>
     ),
   },
 ];
 
 const ExperienceCard = ({ number, label }) => (
-  <div className="bg-[#121212] rounded-2xl p-8 w-[220px] sm:w-[250px] h-[240px] sm:h-[270px] flex flex-col justify-center items-end text-white">
-    <span className="text-6xl sm:text-8xl font-semibold self-start leading-none">
+  <div className="bg-[#121212] rounded-2xl p-6 sm:p-7 w-full h-[220px] sm:h-[240px] flex flex-col justify-center items-end text-white">
+    <span className="text-5xl sm:text-6xl lg:text-7xl font-semibold self-start leading-none tracking-tight">
       {number}
     </span>
-    <span className="mt-auto tracking-tight text-sm sm:text-base md:text-lg uppercase text-gray-400 text-right leading-snug">
+
+    <span className="mt-auto tracking-tight text-xs sm:text-sm uppercase text-gray-400 text-right leading-snug">
       {label}
     </span>
   </div>
@@ -47,18 +58,21 @@ const ExperienceCard = ({ number, label }) => (
 
 const AboutWorkExperience = () => {
   return (
-    <section className="flex flex-col lg:flex-row gap-10 lg:gap-16 px-6 sm:px-10 py-10 justify-between items-center">
+    <section className="flex flex-col xl:flex-row gap-10 xl:gap-16 px-6 sm:px-10 lg:px-12 py-16 justify-between items-start">
       {/* Heading */}
-      <h1 className="flex items-center gap-4 text-4xl sm:text-6xl md:text-7xl lg:text-[120px] leading-tight font-bold">
-        About
+      <div className="flex items-center gap-4 shrink-0">
+        <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[110px] leading-none font-bold tracking-[-0.05em]">
+          About
+        </h1>
+
         <FaArrowRight
-          size={40}
-          className="text-black dark:text-white flex-shrink-0"
+          size={35}
+          className="text-black dark:text-white mt-2"
         />
-      </h1>
+      </div>
 
       {/* Stats */}
-      <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+      <div className="grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 w-full xl:w-auto">
         {EXPERIENCE_STATS.map((stat, index) => (
           <ExperienceCard key={index} {...stat} />
         ))}

@@ -43,22 +43,24 @@ const Skills = () => {
         </div>
 
         {/* Quote Section */}
-        <div className="flex-1 bg-gray-200 rounded-xl p-6 relative">
-          <p className="text-4xl text-gray-600 leading-none">“</p>
-          <p className="text-sm sm:text-base text-gray-700 leading-relaxed mt-2">
-            Every project I build is powered by a mix of creativity,
-            problem-solving, and solid technical foundations. From crafting
-            pixel-perfect interfaces to architecting robust backends, I focus on
-            writing clean, scalable, and efficient code. My goal is to turn
-            ideas into impactful digital experiences that not only work—but
-            inspire.
+        <div className="flex-1 bg-[#121212] text-white rounded-2xl p-8 md:p-12 relative">
+           <p className="text-2xl md:text-4xl font-medium leading-tight max-w-4xl">
+            "I enjoy owning a feature from database schema and API design all
+            the way to the interface, deployment, and production reliability."
           </p>
-          <p className="text-4xl text-gray-600 text-right mt-3">”</p>
-          <div className="mt-4">
-            <strong className="block font-semibold">Karthik Mahadev</strong>
-            <span className="text-sm text-gray-600">Full Stack Developer</span>
+
+          <div className="mt-8">
+            <strong className="block font-semibold">
+              Karthik Mahadev
+            </strong>
+
+            <span className="text-sm text-gray-400">
+              Full Stack Developer
+            </span>
           </div>
         </div>
+
+        
       </div>
     </div>
   );
