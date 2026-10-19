@@ -460,7 +460,7 @@ const Myself = ({ ready = true }) => {
               <PillLink href="https://www.linkedin.com/in/karthikmahadev19">LinkedIn</PillLink>
               <PillLink
                 solid
-                href="/portfolio-v2/Karthik_Mahadev_B_Full_Stack_Developer_Resume.pdf"
+                href="/portfolio-v2/Karthik_Mahadev_B_Resume.pdf"
               >
                 Resume
               </PillLink>
